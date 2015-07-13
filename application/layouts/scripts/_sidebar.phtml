@@ -1,0 +1,59 @@
+<!-- BEGIN SIDEBAR -->
+<div class="page-sidebar-wrapper">
+    <div class="page-sidebar navbar-collapse collapse">
+        <ul class="page-sidebar-menu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+            <li class="start ">
+                <a href="<?php echo $this->url(array('controller' => 'index', 'action' => 'index'), null, true) ?>">
+                    <i class="icon-home"></i>
+                    <span class="title">Inicio</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="icon-basket"></i>
+                    <span class="title">Academia</span>
+                    <span class="arrow "></span>
+                </a>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="ecommerce_index.html">
+                            <i class="icon-home"></i>
+                            Dashboard</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="active open">
+                <a href="javascript:;">
+                    <i class="icon-rocket"></i>
+                    <span class="title">Cadastro</span>
+                    <span class="arrow open"></span>
+                </a>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="<?php echo $this->url(array('controller' => 'customer', 'action' => 'create'), null, true) ?>">
+                            Alunos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?php echo $this->url(array('controller' => 'employees', 'action' => 'create'), null, true) ?>">
+                            Funcionários
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="icon-diamond"></i>
+                    <span class="title">Caixa</span>
+                    <span class="arrow "></span>
+                </a>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="ui_general.html">
+                            General Components</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

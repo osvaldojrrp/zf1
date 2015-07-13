@@ -1,0 +1,23 @@
+
+<head>
+    <?php echo $this->headMeta('charset', 'utf-8')?>
+    <?php echo $this->headTitle('Metronic | Page Layouts - Blank Page') ?>
+    <?php echo $this->headMeta()->appendHttpEquiv('X-UA-Compatible', 'IE=edge')?>
+    <?php echo $this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1.0') ?>
+    <?php echo $this->headMeta()->appendHttpEquiv('Content-type', 'text/html; charset=utf-8')?>
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <?php echo $this->headLink()->appendStylesheet('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all','screen') ?>
+    <?php echo $this->headLink()->appendStylesheet($this->baseUrl() . '/css/font-awesome.min.css','screen') ?>
+    <?php echo $this->headLink()->appendStylesheet($this->baseUrl() . '/css/simple-line-icons.min.css','screen') ?>
+    <?php echo $this->headLink()->appendStylesheet($this->baseUrl() . '/css/bootstrap.min.css','screen') ?>
+    <?php echo $this->headLink()->appendStylesheet($this->baseUrl() . '/css/uniform.default.css','screen') ?>
+    <?php echo $this->headLink()->appendStylesheet($this->baseUrl() . '/css/bootstrap-switch.min.css','screen') ?>
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN THEME STYLES -->
+    <?php echo $this->headLink()->appendStylesheet($this->baseUrl() . '/css/components-rounded.css','screen') ?>
+    <?php echo $this->headLink()->appendStylesheet($this->baseUrl() . '/css/plugins.css','screen') ?>
+    <?php echo $this->headLink()->appendStylesheet($this->baseUrl() . '/css/layout.css','screen') ?>
+    <?php echo $this->headLink()->appendStylesheet($this->baseUrl() . '/css/light.css','screen') ?>
+    <?php echo $this->headLink()->appendStylesheet($this->baseUrl() . '/css/custom.css','screen') ?>
+    <!-- END THEME STYLES -->
+</head>

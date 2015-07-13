@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<?php echo $this->render('_header.phtml'); ?>
+<body class="page-header-fixed page-sidebar-closed-hide-logo">
+    <?php echo $this->render('_headerbar.phtml'); ?>
+    <div class="clearfix">
+    </div>
+    <div class="page-container">
+        <?php echo $this->render('_sidebar.phtml'); ?>
+        <div class="page-content-wrapper">
+            <div class="page-content">
+                <?php echo $this->layout()->content; ?>
+            </div>
+        </div>
+    </div>
+    <?php echo $this->render('_footer.phtml'); ?>
+</body>
+
+</html>
